@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Bermain dengan Warna</h1>
+    <br>
+
+    <p class='merah'></p>
+    <input type="range" name="merah" value="255" min="0" max="255"><br>
+   
+    <p class='hijau'></p>
+    <input type="range" name="hijau" value="255" min="0" max="255"><br>
+    
+    <p class='biru'></p>
+    <input type="range" name="biru" value="255" min="0" max="255"><br>
+    <br>
+
+    <button type="button" id="resetWarna">Tombol ini untuk mereset warna</button>
+    <button type="button" id="ubahWarna">Tombol ini untuk mengacak warna</button><br><br>
+    <button type="button" id="warnaKursor">Nyalakan Lampu Disco : Off</button><br><br>
+
+    <audio src="audio/Nidji - Disco Lazy Time.mp3" loop controls id="musik"></audio>
+
+    <audio id="myAudio">
+        <source src="audio/Nidji - Disco Lazy Time.mp3" type="audio/ogg">
+        <source src="audio/Nidji - Disco Lazy Time.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

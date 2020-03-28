@@ -1,0 +1,36 @@
+        html, body{
+            width: 100%;
+            height: 100%;
+        }
+        body, p{
+            text-align: center;
+        }
+        .merah{
+            background-color: red;
+            height: 30px;
+            width: 30px;
+            margin: 10px auto;
+            color: white;
+            justify-content:center;
+             align-items: center;
+            
+        }
+        .hijau{
+            background-color: green;
+            height: 30px;
+            width: 30px;
+            margin: 10px auto;
+        }
+        .biru{
+            background-color: blue;
+            height: 30px;
+            width: 30px;
+            margin: 10px auto;
+            }
+        .resetbg{
+            background-color: white;
+        }
+        .musik{
+            margin-top: 30px;
+        }
+  
